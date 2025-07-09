@@ -1,0 +1,28 @@
+// Set the correct password
+var password = "123456";
+
+// Ask for user input
+var user_name = prompt("Enter your username:");
+var user_password = prompt("Enter your password:");
+
+// Check if the entered password matches the correct one
+if (user_password === password) {
+  alert(`Welcome ${user_name}`);
+} else {
+  alert("Maybe Username or Password is Invalid or Does not Match");
+}
+
+How it works:
+
+prompt() asks the user to input their username and password.
+
+The password is compared using a conditional if.
+
+If it matches, a welcome message is shown with alert().
+
+If it doesn't match, an error alert is shown.
+
+
+Let me know if you want to include a fixed username too, or allow multiple users!
+
+
